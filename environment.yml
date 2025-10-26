@@ -150,13 +150,14 @@ dependencies:
   - texlab==5.22.1
   - chktex==1.7.9
 
+  - jupyter-remote-desktop-proxy==3.0.1
 
 # Packages not available on conda-forge, installed through pip
   - pip:
 
     # Packages needed only on the hub (mostly linux)
-    - jupyter-remote-desktop-proxy==3.0.1
     - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
+
     # for notebook exporting
     - nb2pdf==0.6.2
     - nbpdfexport==0.2.1
