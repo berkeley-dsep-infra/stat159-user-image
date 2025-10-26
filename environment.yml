@@ -165,5 +165,8 @@ dependencies:
     # Needed for RTC on NFS-backed hubs
     #- git+https://github.com/berkeley-dsep-infra/tmpystore.git@84765e1
 
-  # DH - 557 
+    # DH - 557 
     - datascience==0.18.0
+
+    # Proxy static myst builds
+    - jupyter-myst-build-proxy==0.1.0
