@@ -169,4 +169,4 @@ dependencies:
     - datascience==0.18.0
 
     # Proxy static myst builds
-    - jupyter-myst-build-proxy==0.3.0
+    - jupyter-myst-build-proxy==0.4.0
