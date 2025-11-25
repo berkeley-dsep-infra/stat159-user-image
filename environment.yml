@@ -155,8 +155,8 @@ dependencies:
   # DH - 557
   - datascience==0.18.1
 
- # Proxy static myst builds
- - jupyter-myst-build-proxy==0.5.1
+  # Proxy static myst builds
+  - jupyter-myst-build-proxy==0.5.1
 
 # Packages not available on conda-forge, installed through pip
   - pip:
